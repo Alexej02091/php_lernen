@@ -1,6 +1,8 @@
 <?php
     session_start();
     include_once 'backend_php/db_zugriff.php';
+    
+    
     class Login {
         public function userTabellecheck($name, $password){
             $db = new dbzugriff();
@@ -13,7 +15,7 @@
             $_POST = [];;
             }
 
-            // Password uas DB holen
+            // Password aus DB holen
             $hash = $user["password"];
 
             // Password prüfen
@@ -48,14 +50,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+     <style>
+        #box {
+        width: 200px;
+        height: 100px;
+        background: lightblue;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 8px;
+        font-size: 18px;
+        }
+    </style>
 </head>
 <body>
+<button id="btn">Klick mich!</button>
+
+  <div id="box">Ich bin eine Box</div>
+<script>
+    // jQuery Code
+    $("#btn").click(function() {
+      $("#box").css("background", "lightgreen");
+      $("#box").text("Du hast geklickt!");
+    });
+  </script>
 
     <form action="index.php" method="post">    
         <label>Name:</label>
-            <input type="text" name="name">
+            <input type="text" name="name" autocomplete="off">
         <label>Passwort:</label>
-            <input type="text" name="password">
+            <input type="password" name="password" autocomplete="off">
         <button type="submit">Login</button>
     </form>
 
@@ -65,6 +89,5 @@
         $login->userTabellecheck($_POST["name"], $_POST["password"]);
     }
 ?>
-
     </body>
 </html>

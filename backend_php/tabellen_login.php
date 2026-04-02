@@ -20,6 +20,7 @@ class Logintabelle {
         echo '<th>Benutzername</th>';
         echo '<th>Passwort</th>';
         echo '<th>Rolle</th>';
+        echo '<th>Löschen</th>';
         echo '</tr>';
 
         for ($i = 0; $i < count($daten); $i++) {
@@ -28,6 +29,11 @@ class Logintabelle {
             echo '<td>' . $daten[$i]['name'] . '</td>';
             echo '<td>' . $daten[$i]['password'] . '</td>';
             echo '<td>' . $daten[$i]['rolle'] . '</td>';
+            echo '<td>';
+            echo '<form method="post">';
+            echo    '<button type="submit" name="loesche" value="' . $daten[$i]['id'] . '">User löschen</button>';
+            echo '</form>';
+            echo '</td>';
             echo '</tr>';
         }
 
