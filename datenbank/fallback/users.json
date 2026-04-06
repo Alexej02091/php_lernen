@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "password": "$2y$10$abcdefghijklmnopqrstuv1234567890HASHWERT",
+      "rolle": "admin"
+    },
+    {
+      "id": 2,
+      "name": "demo",
+      "password": "$2y$10$abcdefghijklmnopqrstuv1234567890HASHWERT",
+      "rolle": "user"
+    }
+  ]
+}

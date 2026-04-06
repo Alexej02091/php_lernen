@@ -14,8 +14,41 @@
 		public function connect() {
 			$fehler = "SQL-Fehler: ".$this->createFehlerText( '"mysql_connect" hat einen Fehler verursacht!' );
 			//mysql_connect( $this->host , $this->user , $this->pw ) or $this->error( __LINE__, __FILE__, $fehler, mysql_error() );
-			$this->link = new mysqli( $this->host , $this->user , $this->pw , $this->database );
-			if ( mysqli_connect_errno() ) $this->errorInfo( __LINE__, __FILE__, $fehler, mysqli_connect_error() );
+			
+			try {
+        $this->link = new mysqli(
+            $this->host,
+            $this->user,
+            $this->pw,
+            $this->database
+        );
+			} catch (mysqli_sql_exception $e) {
+				return $this->loadFallback();
+			}
+
+			// Für PHP 5/7
+			if ($this->link->connect_errno) {
+				return $this->loadFallback();
+			}
+
+			return true;
+		}
+
+		private function loadFallback() {
+			$jsonFile = __DIR__ . "/fallback.json";
+
+			if (!file_exists($jsonFile)) {
+				return false;
+			}
+
+			$json = file_get_contents($jsonFile);
+			$data = json_decode($json, true);
+
+			if ($data === null) {
+				return false;
+			}
+
+			return $data;
 		}
 
 		public function query( $sql ) {
@@ -26,6 +59,10 @@
 			if ( in_array( $test[0] , $direkt ) ) return $this->doBefehl( $sql );
 			$result = $this->link->query( $sql ) or die( __LINE__." , ".__FILE__." , $fehler , " . $this->link->error );
 			//if ( $this->link->sqlstate != '00000' ) return $this->link->sqlstate;
+			if ($result === true) {
+     	   	return true;
+    		}
+			
 			$anz    = $result->num_rows;
 			if ( $anz == 0 ) return "";
 			if ( $anz == 1 ) {

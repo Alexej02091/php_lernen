@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once 'db_zugriff.php';
+include_once __DIR__ . '/../datenbank/db_zugriff.php';
 $test_array_logintabelle = new Logintabelle;
 $daten = $test_array_logintabelle->getAlleDaten();
 
@@ -10,7 +10,7 @@ class Logintabelle {
     private $daten;
 
     public function __construct() {
-        include_once('db_zugriff.php');
+        include_once __DIR__ . '/../datenbank/db_zugriff.php';
 
         $this->db = new dbzugriff();
         $this->db->connect();
