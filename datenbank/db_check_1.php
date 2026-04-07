@@ -2,55 +2,49 @@
 class DBCheck {
 
     public static function check($db) {
-
-        $fallbackFile = __DIR__ . '/fallback/users.json';
-        $fallbackData = null;
-
-        // 1. Fallback prüfen
-        if (file_exists($fallbackFile)) {
-            $json = file_get_contents($fallbackFile);
-            $fallbackData = json_decode($json, true);
-
-            $_SESSION["fallback_status"] = [
-                "ok" => true,
-                "message" => "Fallback ist gefunden"
-            ];
-        } else {
-            $_SESSION["fallback_status"] = [
-                "ok" => false,
-                "message" => "Fallback nicht gefunden"
-            ];
-        }
-
-        // 2. DB-Verbindung prüfen
         $conn = $db->connect();
 
+        // 1. DB nicht erreichbar → Fallback prüfen
         if ($conn === false) {
+
+            $fallbackFile = __DIR__ . '/fallback/users.json';
+
+            if (!file_exists($fallbackFile)) {
+                $_SESSION["db_status"] = [
+                    "ok" => false,
+                    "message" => "Keine Verbindung zur Datenbank und kein Fallback verfügbar."
+                ];
+                return false;
+            }
+
+            // Fallback existiert → OK
             $_SESSION["db_status"] = [
                 "ok" => false,
-                "message" => "Keine DB-Verbindung"
+                "message" => "Datenbank nicht erreichbar - Fallback-Daten werden genutzt."
             ];
-        } else {
+
+            return true;
+        }
+
+        // 2. DB liefert Array → Fallback aktiv
+        if (is_array($conn)) {
             $_SESSION["db_status"] = [
+                "ok" => false,
+                "message" => "Datenbank nicht erreichbar - Fallback-Daten werden genutzt."
+            ];
+            return true;
+        }
+
+        // 3. DB erfolgreich
+        $_SESSION["db_status"] = [
             "ok" => true,
             "message" => "Verbindung zur Datenbank erfolgreich."
         ];
-        }
+
+        self::checkUsersTable($db);
+
+        return true;
     }
-
-    // 3. Fallback exestiert aber Keine DB-Verbindung
-    //  
-
-    // 4. Kein Fallback aber DB-Verbindung erfolgreich
-    // alle daten in Fallback übertragen
-
-    // 5. Kein Fallback und kein DB-Verbindung
-    // neue Fallback erstellen mit Version 1
-
-    // 6 Fallback exestiert und DB-Verbindung
-
-
-
 
     private static function checkUsersTable($db) {
         $sql = "SHOW TABLES LIKE 'users'";
