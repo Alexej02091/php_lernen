@@ -83,15 +83,18 @@
             $statusClass = "";
             $message = "";
 
+            $statusFallback = "";
+            $messageFallback = "";
+
             // Wenn DBCheck etwas gesetzt hat
             if (isset($_SESSION["db_status"])) {
                 $message = $_SESSION["db_status"]["message"];
 
                 if ($_SESSION["db_status"]["ok"] === true) {
                     $statusClass = "db-ok";
-                } elseif (strpos($message, "Fallback") !== false) {
-                    $statusClass = "db-fallback";
-                } else {
+                }
+                
+                if ($_SESSION["db_status"]["ok"] === false) {
                     $statusClass = "db-error";
                 }
             } else {
@@ -99,10 +102,29 @@
                 $statusClass = "db-error";
                 $message = "Unbekannter Datenbankstatus.";
             }
+
+            if (isset($_SESSION["fallback_status"])) {
+                $messageFallback = $_SESSION["fallback_status"]["message"];
+
+                if ($_SESSION["fallback_status"]["ok"] === true) {
+                    $statusFallback = "db-ok";
+                }
+                    if ($_SESSION["fallback_status"]["ok"] === false) {
+                    $statusFallback = "db-error";
+                }
+
+            } else {
+                $statusFallback = "db-error";
+                $messageFallback = "Unbekanter Fallbackstatus";
+            }
             ?>
 
             <div class="db-status <?= $statusClass ?>">
                 <?= $message ?>
+            </div>
+
+            <div class="db-status <?= $statusFallback ?>">
+                <?= $messageFallback ?>
             </div>
 
             <?php// var_dump($_SESSION["db_status"]);?>
