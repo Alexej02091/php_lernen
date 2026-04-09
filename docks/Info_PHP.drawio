@@ -5963,7 +5963,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="B84XrRuUW7SkSoBpQu-g" name="PHP_Fallback">
-    <mxGraphModel dx="6873" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4892" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6012,17 +6012,14 @@
             <mxPoint x="1520" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="2230" y="5650" as="geometry" />
-        </mxCell>
         <mxCell id="qO_WYtTIfSz8GS38qmcU-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="1700" y="5650" as="geometry" />
+          <mxGeometry height="60" width="120" x="770" y="6240" as="geometry" />
         </mxCell>
         <mxCell id="qO_WYtTIfSz8GS38qmcU-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="1890" y="5650" as="geometry" />
+          <mxGeometry height="60" width="120" x="960" y="6240" as="geometry" />
         </mxCell>
         <mxCell id="qO_WYtTIfSz8GS38qmcU-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="2060" y="5650" as="geometry" />
+          <mxGeometry height="60" width="120" x="1130" y="6240" as="geometry" />
         </mxCell>
         <mxCell id="qO_WYtTIfSz8GS38qmcU-47" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="3000" width="2480" x="-2560" y="30" as="geometry" />
@@ -6214,7 +6211,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qO_WYtTIfSz8GS38qmcU-79" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=190;height=30;" value="Fallback Logik" vertex="1">
-          <mxGeometry height="2270" width="3480" x="320" y="3080" as="geometry" />
+          <mxGeometry height="6120" width="6850" x="320" y="3080" as="geometry" />
         </mxCell>
         <mxCell id="qO_WYtTIfSz8GS38qmcU-81" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=27;" value="Start" vertex="1">
           <mxGeometry height="60" width="120" x="1970" y="3220" as="geometry" />
@@ -6228,121 +6225,10 @@
             <mxPoint x="1370" y="3387" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-94" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" value="DB Verbindung erfolgreich" vertex="1">
-          <mxGeometry height="60" width="230" x="1550" y="3590" as="geometry" />
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-95" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" value="Keine DB Verbindung" vertex="1">
-          <mxGeometry height="60" width="230" x="2210" y="3590" as="geometry" />
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-100" edge="1" parent="1" source="qO_WYtTIfSz8GS38qmcU-90" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="qO_WYtTIfSz8GS38qmcU-95" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="2325" y="3440" />
-            </Array>
-            <mxPoint x="1600" y="3560" as="sourcePoint" />
-            <mxPoint x="1650" y="3510" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-101" edge="1" parent="1" source="qO_WYtTIfSz8GS38qmcU-90" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="qO_WYtTIfSz8GS38qmcU-94" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="1665" y="3440" />
-            </Array>
-            <mxPoint x="1600" y="3560" as="sourcePoint" />
-            <mxPoint x="1650" y="3510" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-103" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;NEIN&lt;/font&gt;" vertex="1">
-          <mxGeometry x="2260" y="3410" as="geometry" />
-        </mxCell>
         <mxCell id="qO_WYtTIfSz8GS38qmcU-104" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="JA" vertex="1">
-          <mxGeometry x="1750" y="3410" as="geometry" />
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-107" edge="1" parent="1" source="qO_WYtTIfSz8GS38qmcU-95" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="qO_WYtTIfSz8GS38qmcU-111" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1770" y="3740" as="sourcePoint" />
-            <mxPoint x="2325" y="3760" as="targetPoint" />
+          <mxGeometry x="1750" y="3410" as="geometry">
+            <mxPoint x="772" y="-10" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-109" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" value="Vergleiche mit JSON Datei" vertex="1">
-          <mxGeometry height="60" width="230" x="1550" y="3690" as="geometry" />
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-110" edge="1" parent="1" source="qO_WYtTIfSz8GS38qmcU-94" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="qO_WYtTIfSz8GS38qmcU-109" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1530" y="3740" as="sourcePoint" />
-            <mxPoint x="1580" y="3690" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-111" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;" value="Suche JSON Datei" vertex="1">
-          <mxGeometry height="80" width="370" x="2140" y="3720" as="geometry" />
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-114" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" value="Nutze JSON Datei" vertex="1">
-          <mxGeometry height="60" width="230" x="2490" y="4010" as="geometry" />
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-115" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" value="Erstelle JSON Datei" vertex="1">
-          <mxGeometry height="60" width="230" x="1945" y="4010" as="geometry" />
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-116" edge="1" parent="1" source="qO_WYtTIfSz8GS38qmcU-111" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="qO_WYtTIfSz8GS38qmcU-115" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="2060" y="3760" />
-            </Array>
-            <mxPoint x="2000" y="3840" as="sourcePoint" />
-            <mxPoint x="2050" y="3790" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-118" edge="1" parent="1" source="qO_WYtTIfSz8GS38qmcU-111" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="qO_WYtTIfSz8GS38qmcU-114" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="2600" y="3760" />
-            </Array>
-            <mxPoint x="2000" y="3840" as="sourcePoint" />
-            <mxPoint x="2050" y="3790" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-119" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="JA" vertex="1">
-          <mxGeometry x="2070" y="3730" as="geometry">
-            <mxPoint x="27" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-120" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;NEIN&lt;/font&gt;" vertex="1">
-          <mxGeometry x="2550" y="3730" as="geometry" />
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-122" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=200;height=40;" value="DB und JSON vergleichen" vertex="1">
-          <mxGeometry height="620" width="620" x="550" y="3670" as="geometry" />
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-123" edge="1" parent="1" source="qO_WYtTIfSz8GS38qmcU-122" style="endArrow=classic;html=1;rounded=0;exitX=0.999;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qO_WYtTIfSz8GS38qmcU-109" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1520" y="3720" as="sourcePoint" />
-            <mxPoint x="1570" y="3670" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-124" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;" value="ich brauche alle Tabellen aus Datenbank&lt;div&gt;ich brauche alle Attributen aus Datenbank&lt;/div&gt;&lt;div&gt;ich muss letzte Update Datum von jedem Datensatz&amp;nbsp; vergleichen&lt;/div&gt;" vertex="1">
-          <mxGeometry height="140" width="250" x="570" y="3910" as="geometry" />
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-125" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=190;height=40;" value="JSON erstellen" vertex="1">
-          <mxGeometry height="500" width="580" x="1260" y="4070" as="geometry" />
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-126" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;" value="Bauplan für Datenbank:&lt;div&gt;Datenbank name:&lt;/div&gt;&lt;div&gt;Tabellen name:&lt;/div&gt;&lt;div&gt;Attribut:&lt;/div&gt;&lt;div&gt;Eingenschaft:&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="210" x="1273" y="4210" as="geometry" />
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-127" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;" value="Verschlüsselte JSON Datei mit dem Bauplan für Datenbank" vertex="1">
-          <mxGeometry height="80" width="210" x="1273" y="4120" as="geometry" />
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-128" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;" value="Klass der der Bauplan enthält und ausfürt." vertex="1">
-          <mxGeometry height="40" width="210" x="1273" y="4310" as="geometry" />
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-129" edge="1" parent="1" source="qO_WYtTIfSz8GS38qmcU-125" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.006;exitY=0.029;exitDx=0;exitDy=0;exitPerimeter=0;" target="qO_WYtTIfSz8GS38qmcU-115" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="1550" y="4230" as="sourcePoint" />
-            <mxPoint x="1600" y="4180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-130" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=180;height=30;" value="JSON Datei nutzen" vertex="1">
-          <mxGeometry height="340" width="480" x="2828" y="4027" as="geometry" />
-        </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-131" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;" value="JSON entschlüsseln.&lt;br&gt;Dateien statt BD aus JSON laden" vertex="1">
-          <mxGeometry height="40" width="200" x="2840" y="4070" as="geometry" />
         </mxCell>
         <mxCell id="qO_WYtTIfSz8GS38qmcU-132" edge="1" parent="1" source="qO_WYtTIfSz8GS38qmcU-130" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.002;exitY=0.04;exitDx=0;exitDy=0;exitPerimeter=0;" target="qO_WYtTIfSz8GS38qmcU-114" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -6350,11 +6236,362 @@
             <mxPoint x="2660" y="4090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-133" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=170;height=30;" value="✅ &lt;strong&gt;JSON statt Datenbank&lt;/strong&gt;" vertex="1">
-          <mxGeometry height="2210" width="3090" x="4040" y="3090" as="geometry" />
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-3" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="2210" width="3090" x="7490" y="3100" as="geometry" />
         </mxCell>
-        <mxCell id="qO_WYtTIfSz8GS38qmcU-134" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;" value="&lt;h1&gt;✅ &lt;strong&gt;JSON statt Datenbank – einfaches Beispiel (ohne Verschlüsselung)&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Angenommen, du hast eine Datei:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;code&gt;fallback.json&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;json&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;rounded-b-xl bg-background-static-850 px-4 pb-1.5 dark:bg-background-static-900&quot;&gt;&lt;div style=&quot;white-space: pre;&quot;&gt;&lt;pre&gt;&lt;code&gt;{&lt;br&gt;    &quot;status&quot;: &quot;ok&quot;,&lt;br&gt;    &quot;timestamp&quot;: 1712500000,&lt;br&gt;    &quot;items&quot;: [1, 2, 3]&lt;br&gt;}&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Dann kannst du diese Datei in PHP so laden:&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;php&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;rounded-b-xl bg-background-static-850 px-4 pb-1.5 dark:bg-background-static-900&quot;&gt;&lt;div style=&quot;white-space: pre;&quot;&gt;&lt;pre&gt;&lt;code&gt;$json = file_get_contents(&quot;fallback.json&quot;);  // Datei einlesen&lt;br&gt;$data = json_decode($json, true);           // JSON → Array&lt;br&gt;&lt;br&gt;print_r($data);&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3&gt;Ergebnis:&lt;/h3&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;php&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;rounded-b-xl bg-background-static-850 px-4 pb-1.5 dark:bg-background-static-900&quot;&gt;&lt;div style=&quot;white-space: pre;&quot;&gt;&lt;pre&gt;&lt;code&gt;Array&lt;br&gt;(&lt;br&gt;    [status] =&amp;gt; ok&lt;br&gt;    [timestamp] =&amp;gt; 1712500000&lt;br&gt;    [items] =&amp;gt; Array&lt;br&gt;        (&lt;br&gt;            [0] =&amp;gt; 1&lt;br&gt;            [1] =&amp;gt; 2&lt;br&gt;            [2] =&amp;gt; 3&lt;br&gt;        )&lt;br&gt;)&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;h1&gt;🧩 &lt;strong&gt;Wie du es wie eine DB‑Abfrage nutzt&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Stell dir vor, du würdest sonst so etwas machen:&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;php&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;rounded-b-xl bg-background-static-850 px-4 pb-1.5 dark:bg-background-static-900&quot;&gt;&lt;div style=&quot;white-space: pre;&quot;&gt;&lt;pre&gt;&lt;code&gt;$result = $db-&amp;gt;query(&quot;SELECT * FROM items&quot;);&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Jetzt machst du stattdessen:&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;php&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;rounded-b-xl bg-background-static-850 px-4 pb-1.5 dark:bg-background-static-900&quot;&gt;&lt;div style=&quot;white-space: pre;&quot;&gt;&lt;pre&gt;&lt;code&gt;$data = json_decode(file_get_contents(&quot;fallback.json&quot;), true);&lt;br&gt;&lt;br&gt;$items = $data[&quot;items&quot;];   // wie DB-Daten&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;h1&gt;📌 &lt;strong&gt;Komplettes Beispiel: Fallback nutzen, wenn DB nicht erreichbar ist&lt;/strong&gt;&lt;/h1&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;php&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;rounded-b-xl bg-background-static-850 px-4 pb-1.5 dark:bg-background-static-900&quot;&gt;&lt;div style=&quot;white-space: pre;&quot;&gt;&lt;pre&gt;&lt;code&gt;try {&lt;br&gt;    // Versuch: Datenbank&lt;br&gt;    $items = $db-&amp;gt;query(&quot;SELECT * FROM items&quot;)-&amp;gt;fetchAll();&lt;br&gt;} catch (Exception $e) {&lt;br&gt;    // Fallback: JSON-Datei&lt;br&gt;    $json = file_get_contents(&quot;fallback.json&quot;);&lt;br&gt;    $data = json_decode($json, true);&lt;br&gt;    $items = $data[&quot;items&quot;];&lt;br&gt;}&lt;br&gt;&lt;br&gt;print_r($items);&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;So funktioniert ein echter Fallback‑Mechanismus.&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;/div&gt;&lt;h1&gt;🎯 &lt;strong&gt;Zusammenfassung&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Ohne Verschlüsselung brauchst du nur:&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;1. Datei lesen&lt;/strong&gt;&lt;/h3&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;php&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;rounded-b-xl bg-background-static-850 px-4 pb-1.5 dark:bg-background-static-900&quot;&gt;&lt;div style=&quot;white-space: pre;&quot;&gt;&lt;pre&gt;&lt;code&gt;$json = file_get_contents(&quot;fallback.json&quot;);&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3&gt;&lt;strong&gt;2. JSON in Array umwandeln&lt;/strong&gt;&lt;/h3&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;php&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;rounded-b-xl bg-background-static-850 px-4 pb-1.5 dark:bg-background-static-900&quot;&gt;&lt;div style=&quot;white-space: pre;&quot;&gt;&lt;pre&gt;&lt;code&gt;$data = json_decode($json, true);&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3&gt;&lt;strong&gt;3. Daten verwenden&lt;/strong&gt;&lt;/h3&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;php&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;rounded-b-xl bg-background-static-850 px-4 pb-1.5 dark:bg-background-static-900&quot;&gt;&lt;div style=&quot;white-space: pre;&quot;&gt;&lt;pre&gt;&lt;code&gt;$items = $data[&quot;items&quot;];&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div data-testid=&quot;chat-page&quot;&gt;&lt;/div&gt;&lt;div class=&quot;pointer-events-none absolute bottom-0 w-full&quot;&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="1430" width="960" x="4050" y="3130" as="geometry" />
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-133" parent="JwBW0XjGU_Lk8adR58iQ-3" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=170;height=30;" value="✅ &lt;strong&gt;JSON statt Datenbank&lt;/strong&gt;" vertex="1">
+          <mxGeometry height="2210" width="3090" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-134" parent="JwBW0XjGU_Lk8adR58iQ-3" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;" value="&lt;h1&gt;✅ &lt;strong&gt;JSON statt Datenbank – einfaches Beispiel (ohne Verschlüsselung)&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Angenommen, du hast eine Datei:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;code&gt;fallback.json&lt;/code&gt;&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;json&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;rounded-b-xl bg-background-static-850 px-4 pb-1.5 dark:bg-background-static-900&quot;&gt;&lt;div style=&quot;white-space: pre;&quot;&gt;&lt;pre&gt;&lt;code&gt;{&lt;br&gt;    &quot;status&quot;: &quot;ok&quot;,&lt;br&gt;    &quot;timestamp&quot;: 1712500000,&lt;br&gt;    &quot;items&quot;: [1, 2, 3]&lt;br&gt;}&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Dann kannst du diese Datei in PHP so laden:&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;php&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;rounded-b-xl bg-background-static-850 px-4 pb-1.5 dark:bg-background-static-900&quot;&gt;&lt;div style=&quot;white-space: pre;&quot;&gt;&lt;pre&gt;&lt;code&gt;$json = file_get_contents(&quot;fallback.json&quot;);  // Datei einlesen&lt;br&gt;$data = json_decode($json, true);           // JSON → Array&lt;br&gt;&lt;br&gt;print_r($data);&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3&gt;Ergebnis:&lt;/h3&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;php&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;rounded-b-xl bg-background-static-850 px-4 pb-1.5 dark:bg-background-static-900&quot;&gt;&lt;div style=&quot;white-space: pre;&quot;&gt;&lt;pre&gt;&lt;code&gt;Array&lt;br&gt;(&lt;br&gt;    [status] =&amp;gt; ok&lt;br&gt;    [timestamp] =&amp;gt; 1712500000&lt;br&gt;    [items] =&amp;gt; Array&lt;br&gt;        (&lt;br&gt;            [0] =&amp;gt; 1&lt;br&gt;            [1] =&amp;gt; 2&lt;br&gt;            [2] =&amp;gt; 3&lt;br&gt;        )&lt;br&gt;)&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;h1&gt;🧩 &lt;strong&gt;Wie du es wie eine DB‑Abfrage nutzt&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Stell dir vor, du würdest sonst so etwas machen:&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;php&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;rounded-b-xl bg-background-static-850 px-4 pb-1.5 dark:bg-background-static-900&quot;&gt;&lt;div style=&quot;white-space: pre;&quot;&gt;&lt;pre&gt;&lt;code&gt;$result = $db-&amp;gt;query(&quot;SELECT * FROM items&quot;);&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Jetzt machst du stattdessen:&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;php&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;rounded-b-xl bg-background-static-850 px-4 pb-1.5 dark:bg-background-static-900&quot;&gt;&lt;div style=&quot;white-space: pre;&quot;&gt;&lt;pre&gt;&lt;code&gt;$data = json_decode(file_get_contents(&quot;fallback.json&quot;), true);&lt;br&gt;&lt;br&gt;$items = $data[&quot;items&quot;];   // wie DB-Daten&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;h1&gt;📌 &lt;strong&gt;Komplettes Beispiel: Fallback nutzen, wenn DB nicht erreichbar ist&lt;/strong&gt;&lt;/h1&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;php&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;rounded-b-xl bg-background-static-850 px-4 pb-1.5 dark:bg-background-static-900&quot;&gt;&lt;div style=&quot;white-space: pre;&quot;&gt;&lt;pre&gt;&lt;code&gt;try {&lt;br&gt;    // Versuch: Datenbank&lt;br&gt;    $items = $db-&amp;gt;query(&quot;SELECT * FROM items&quot;)-&amp;gt;fetchAll();&lt;br&gt;} catch (Exception $e) {&lt;br&gt;    // Fallback: JSON-Datei&lt;br&gt;    $json = file_get_contents(&quot;fallback.json&quot;);&lt;br&gt;    $data = json_decode($json, true);&lt;br&gt;    $items = $data[&quot;items&quot;];&lt;br&gt;}&lt;br&gt;&lt;br&gt;print_r($items);&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;So funktioniert ein echter Fallback‑Mechanismus.&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;/div&gt;&lt;h1&gt;🎯 &lt;strong&gt;Zusammenfassung&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Ohne Verschlüsselung brauchst du nur:&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;&lt;strong&gt;1. Datei lesen&lt;/strong&gt;&lt;/h3&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;php&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;rounded-b-xl bg-background-static-850 px-4 pb-1.5 dark:bg-background-static-900&quot;&gt;&lt;div style=&quot;white-space: pre;&quot;&gt;&lt;pre&gt;&lt;code&gt;$json = file_get_contents(&quot;fallback.json&quot;);&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3&gt;&lt;strong&gt;2. JSON in Array umwandeln&lt;/strong&gt;&lt;/h3&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;php&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;rounded-b-xl bg-background-static-850 px-4 pb-1.5 dark:bg-background-static-900&quot;&gt;&lt;div style=&quot;white-space: pre;&quot;&gt;&lt;pre&gt;&lt;code&gt;$data = json_decode($json, true);&lt;br&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;h3&gt;&lt;strong&gt;3. Daten verwenden&lt;/strong&gt;&lt;/h3&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;php&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;rounded-b-xl bg-background-static-850 px-4 pb-1.5 dark:bg-background-static-900&quot;&gt;&lt;div style=&quot;white-space: pre;&quot;&gt;&lt;pre&gt;&lt;code&gt;$items = $data[&quot;items&quot;];&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div data-testid=&quot;chat-page&quot;&gt;&lt;/div&gt;&lt;div class=&quot;pointer-events-none absolute bottom-0 w-full&quot;&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="1430" width="960" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-4" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="340" width="480" x="1840" y="4060" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-130" parent="JwBW0XjGU_Lk8adR58iQ-4" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=180;height=30;" value="JSON Datei nutzen" vertex="1">
+          <mxGeometry height="340" width="480" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-131" parent="JwBW0XjGU_Lk8adR58iQ-4" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;" value="JSON entschlüsseln.&lt;br&gt;Dateien statt BD aus JSON laden" vertex="1">
+          <mxGeometry height="40" width="200" x="12" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-17" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="620" width="886.25" x="450" y="5280" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-109" parent="JwBW0XjGU_Lk8adR58iQ-17" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" value="Vergleiche mit JSON Datei" vertex="1">
+          <mxGeometry height="60" width="230" x="656.25" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-122" parent="JwBW0XjGU_Lk8adR58iQ-17" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=200;height=40;" value="DB und JSON vergleichen" vertex="1">
+          <mxGeometry height="620" width="620" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-124" parent="JwBW0XjGU_Lk8adR58iQ-17" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;" value="ich brauche alle Tabellen aus Datenbank&lt;div&gt;ich brauche alle Attributen aus Datenbank&lt;/div&gt;&lt;div&gt;ich muss letzte Update Datum von jedem Datensatz&amp;nbsp; vergleichen&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="250" x="10" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-123" edge="1" parent="JwBW0XjGU_Lk8adR58iQ-17" source="qO_WYtTIfSz8GS38qmcU-122" style="endArrow=classic;html=1;rounded=0;exitX=0.999;exitY=0.077;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qO_WYtTIfSz8GS38qmcU-109" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1100" y="-810" as="sourcePoint" />
+            <mxPoint x="1150" y="-860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-18" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="450" width="1073" x="2360" y="3550" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-94" parent="JwBW0XjGU_Lk8adR58iQ-18" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" value="DB Verbindung erfolgreich" vertex="1">
+          <mxGeometry height="60" width="230" x="443" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-101" edge="1" parent="JwBW0XjGU_Lk8adR58iQ-18" source="qO_WYtTIfSz8GS38qmcU-90" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="qO_WYtTIfSz8GS38qmcU-94" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="558" y="-110" />
+              <mxPoint x="558" />
+            </Array>
+            <mxPoint x="1123" y="120" as="sourcePoint" />
+            <mxPoint x="1173" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-1" parent="JwBW0XjGU_Lk8adR58iQ-18" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;" value="Suche JSON Datei" vertex="1">
+          <mxGeometry height="80" width="370" x="373" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-7" parent="JwBW0XjGU_Lk8adR58iQ-18" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" value="Erstellen JSON Datei" vertex="1">
+          <mxGeometry height="60" width="350" x="10" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-8" parent="JwBW0XjGU_Lk8adR58iQ-18" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" value="Vergleiche JSON Datei" vertex="1">
+          <mxGeometry height="60" width="340" x="733" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-9" edge="1" parent="JwBW0XjGU_Lk8adR58iQ-18" source="JwBW0XjGU_Lk8adR58iQ-1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="JwBW0XjGU_Lk8adR58iQ-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="903" y="200" />
+            </Array>
+            <mxPoint x="473" y="160" as="sourcePoint" />
+            <mxPoint x="523" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-10" edge="1" parent="JwBW0XjGU_Lk8adR58iQ-18" source="JwBW0XjGU_Lk8adR58iQ-1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="JwBW0XjGU_Lk8adR58iQ-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="183" y="200" />
+            </Array>
+            <mxPoint x="473" y="160" as="sourcePoint" />
+            <mxPoint x="523" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-12" connectable="0" parent="JwBW0XjGU_Lk8adR58iQ-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="JA" vertex="1">
+          <mxGeometry x="1023" y="150" as="geometry">
+            <mxPoint x="-207" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-13" connectable="0" parent="JwBW0XjGU_Lk8adR58iQ-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;NEIN&lt;/font&gt;" vertex="1">
+          <mxGeometry x="263" y="150" as="geometry">
+            <mxPoint x="9" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-2" edge="1" parent="JwBW0XjGU_Lk8adR58iQ-18" source="qO_WYtTIfSz8GS38qmcU-94" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="JwBW0XjGU_Lk8adR58iQ-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1093" y="210" as="sourcePoint" />
+            <mxPoint x="1143" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-19" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="660" width="1300" x="440" y="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-100" edge="1" parent="JwBW0XjGU_Lk8adR58iQ-19" source="qO_WYtTIfSz8GS38qmcU-90" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="qO_WYtTIfSz8GS38qmcU-95" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" />
+            </Array>
+            <mxPoint x="-660" y="150" as="sourcePoint" />
+            <mxPoint x="-610" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-15" connectable="0" parent="JwBW0XjGU_Lk8adR58iQ-19" style="group" value="" vertex="1">
+          <mxGeometry height="470" width="1120" x="180" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-119" connectable="0" parent="JwBW0XjGU_Lk8adR58iQ-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="JA" vertex="1">
+          <mxGeometry x="820" y="120" as="geometry">
+            <mxPoint x="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-120" connectable="0" parent="JwBW0XjGU_Lk8adR58iQ-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;NEIN&lt;/font&gt;" vertex="1">
+          <mxGeometry x="230" y="110" as="geometry">
+            <mxPoint x="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-14" connectable="0" parent="JwBW0XjGU_Lk8adR58iQ-15" style="group" value="" vertex="1">
+          <mxGeometry height="470" width="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-95" parent="JwBW0XjGU_Lk8adR58iQ-14" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" value="Keine DB Verbindung" vertex="1">
+          <mxGeometry height="60" width="230" x="415" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-111" parent="JwBW0XjGU_Lk8adR58iQ-14" style="rhombus;whiteSpace=wrap;html=1;fontSize=20;" value="Suche JSON Datei" vertex="1">
+          <mxGeometry height="80" width="370" x="345" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-114" parent="JwBW0XjGU_Lk8adR58iQ-14" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" value="Nutze JSON Datei" vertex="1">
+          <mxGeometry height="60" width="230" x="890" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-115" parent="JwBW0XjGU_Lk8adR58iQ-14" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" value="Erstelle JSON Datei" vertex="1">
+          <mxGeometry height="60" width="230" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-116" edge="1" parent="JwBW0XjGU_Lk8adR58iQ-14" source="qO_WYtTIfSz8GS38qmcU-111" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="qO_WYtTIfSz8GS38qmcU-115" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="160" />
+            </Array>
+            <mxPoint x="-430" y="240" as="sourcePoint" />
+            <mxPoint x="-380" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-118" edge="1" parent="JwBW0XjGU_Lk8adR58iQ-14" source="qO_WYtTIfSz8GS38qmcU-111" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="qO_WYtTIfSz8GS38qmcU-114" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="160" />
+            </Array>
+            <mxPoint x="-430" y="240" as="sourcePoint" />
+            <mxPoint x="-380" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-107" edge="1" parent="JwBW0XjGU_Lk8adR58iQ-14" source="qO_WYtTIfSz8GS38qmcU-95" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="qO_WYtTIfSz8GS38qmcU-111" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-660" y="140" as="sourcePoint" />
+            <mxPoint x="-105" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-103" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;NEIN&lt;/font&gt;" vertex="1">
+          <mxGeometry x="1590" y="3400" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-127" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;" value="Verschlüsselte JSON Datei mit dem Bauplan für Datenbank" vertex="1">
+          <mxGeometry height="156.8" width="330" x="1290" y="4590" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-126" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;" value="Bauplan für Datenbank:&lt;div&gt;Datenbank name:&lt;/div&gt;&lt;div&gt;Tabellen name:&lt;/div&gt;&lt;div&gt;Attribut:&lt;/div&gt;&lt;div&gt;Eingenschaft:&lt;/div&gt;" vertex="1">
+          <mxGeometry height="156.8" width="330" x="1290" y="4780" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-128" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;" value="Klass der der Bauplan enthält und ausfürt." vertex="1">
+          <mxGeometry height="78.4" width="330" x="1290" y="4962.4" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="3860" y="5870" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-125" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=190;height=40;" value="JSON erstellen" vertex="1">
+          <mxGeometry height="4250" width="3260" x="1790" y="4570" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-22" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=355;height=40;" value="Klasse DBModell&amp;nbsp;" vertex="1">
+          <mxGeometry height="690" width="1035" x="1825" y="4640" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-23" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="DBModell" vertex="1">
+          <mxGeometry height="372" width="310" x="1880" y="4720" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-24" parent="JwBW0XjGU_Lk8adR58iQ-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- tabelleName: String" vertex="1">
+          <mxGeometry height="26" width="310" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-28" parent="JwBW0XjGU_Lk8adR58iQ-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- attributName: String" vertex="1">
+          <mxGeometry height="26" width="310" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-27" parent="JwBW0XjGU_Lk8adR58iQ-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- eigenschaft: Eingenschaft[]" vertex="1">
+          <mxGeometry height="26" width="310" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-30" parent="JwBW0XjGU_Lk8adR58iQ-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- intergritätsregeln: Intergritätsregel[]" vertex="1">
+          <mxGeometry height="26" width="310" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-29" parent="JwBW0XjGU_Lk8adR58iQ-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- beziehungsmerkmale: Beziehungsmerkmale[]" vertex="1">
+          <mxGeometry height="26" width="310" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-37" parent="JwBW0XjGU_Lk8adR58iQ-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- automatisierung: Automatisierung[]" vertex="1">
+          <mxGeometry height="26" width="310" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-36" parent="JwBW0XjGU_Lk8adR58iQ-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- performance: Performance[]" vertex="1">
+          <mxGeometry height="26" width="310" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-35" parent="JwBW0XjGU_Lk8adR58iQ-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- dokumentation: String" vertex="1">
+          <mxGeometry height="26" width="310" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-34" parent="JwBW0XjGU_Lk8adR58iQ-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry height="26" width="310" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-25" parent="JwBW0XjGU_Lk8adR58iQ-23" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="310" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-26" parent="JwBW0XjGU_Lk8adR58iQ-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ tabelleEinfügen: type" vertex="1">
+          <mxGeometry height="26" width="310" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-33" parent="JwBW0XjGU_Lk8adR58iQ-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ tabelleAktualiesieren: type" vertex="1">
+          <mxGeometry height="26" width="310" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-32" parent="JwBW0XjGU_Lk8adR58iQ-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ tabelleVergleichen: type" vertex="1">
+          <mxGeometry height="26" width="310" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-31" parent="JwBW0XjGU_Lk8adR58iQ-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1">
+          <mxGeometry height="26" width="310" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="qO_WYtTIfSz8GS38qmcU-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;" value="Namen alle Tabellen&lt;div&gt;Attributen der Tabellen&lt;/div&gt;&lt;div&gt;Eingeschaft der Tabellen&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="350" x="2500" y="4650" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-46" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Eingenschaft" vertex="1">
+          <mxGeometry height="86" width="160" x="2330" y="4720" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-47" parent="JwBW0XjGU_Lk8adR58iQ-46" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- name: String[]" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-48" parent="JwBW0XjGU_Lk8adR58iQ-46" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-49" parent="JwBW0XjGU_Lk8adR58iQ-46" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-50" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Intergritätsregel" vertex="1">
+          <mxGeometry height="86" width="160" x="2500" y="4830" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-51" parent="JwBW0XjGU_Lk8adR58iQ-50" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- name: String[]" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-52" parent="JwBW0XjGU_Lk8adR58iQ-50" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-53" parent="JwBW0XjGU_Lk8adR58iQ-50" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-54" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Beziehungsmerkmale" vertex="1">
+          <mxGeometry height="86" width="160" x="2500" y="4962.4" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-55" parent="JwBW0XjGU_Lk8adR58iQ-54" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- name: String[]" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-56" parent="JwBW0XjGU_Lk8adR58iQ-54" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-57" parent="JwBW0XjGU_Lk8adR58iQ-54" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-58" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Automatisierung" vertex="1">
+          <mxGeometry height="86" width="160" x="2500" y="5092" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-59" parent="JwBW0XjGU_Lk8adR58iQ-58" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- name: String[]" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-60" parent="JwBW0XjGU_Lk8adR58iQ-58" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-61" parent="JwBW0XjGU_Lk8adR58iQ-58" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-62" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Performance" vertex="1">
+          <mxGeometry height="86" width="160" x="2500" y="5224" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-63" parent="JwBW0XjGU_Lk8adR58iQ-62" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- name: String[]" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-64" parent="JwBW0XjGU_Lk8adR58iQ-62" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-65" parent="JwBW0XjGU_Lk8adR58iQ-62" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-69" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="880" width="920" x="3950" y="4650" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-39" parent="JwBW0XjGU_Lk8adR58iQ-69" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;" value="&lt;div&gt;1. Strukturelle Eigenschaften&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Name — eindeutige Bezeichnung der Spalte&lt;/li&gt;&lt;li&gt;Datentyp — z. B. INT, VARCHAR, DATE&lt;/li&gt;&lt;li&gt;Länge / Präzision — z. B. VARCHAR(100), DECIMAL(8,2)&lt;/li&gt;&lt;li&gt;Standardwert — voreingestellter Wert, wenn keiner angegeben wird&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="330" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-41" parent="JwBW0XjGU_Lk8adR58iQ-69" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=390;height=40;" value="DB Info" vertex="1">
+          <mxGeometry height="880" width="920" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-42" parent="JwBW0XjGU_Lk8adR58iQ-69" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;" value="&lt;div&gt;2. Integritäts- und Validierungsregeln&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;NOT NULL — Wert darf nicht fehlen&lt;/li&gt;&lt;li&gt;UNIQUE — jeder Wert muss einzigartig sein&lt;/li&gt;&lt;li&gt;CHECK‑Constraint — z. B. CHECK (Alter &amp;gt;= 0)&lt;/li&gt;&lt;li&gt;Primary Key — eindeutiger Identifikator&lt;/li&gt;&lt;li&gt;Foreign Key — verweist auf andere Tabelle&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="330" x="20" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-43" parent="JwBW0XjGU_Lk8adR58iQ-69" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;" value="&lt;div&gt;3. Automatisierungs- und Systemverhalten&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Auto‑Increment / Identity — automatische Nummerierung&lt;/li&gt;&lt;li&gt;Generated / Computed Column — Wert wird berechnet&lt;/li&gt;&lt;li&gt;On Update / On Delete Regeln — Verhalten bei Fremdschlüsselaktionen&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="330" x="20" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-44" parent="JwBW0XjGU_Lk8adR58iQ-69" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;" value="&lt;div&gt;4. Performance- und Speicherbezogene Eigenschaften&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Index — beschleunigt Abfragen&lt;/li&gt;&lt;li&gt;Collation — Sortierung/Zeichensatz für Text&lt;/li&gt;&lt;li&gt;Unsigned — nur positive Zahlen (z. B. MySQL)&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="330" x="20" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-45" parent="JwBW0XjGU_Lk8adR58iQ-69" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;" value="&lt;div&gt;5. Dokumentation&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Kommentar / Beschreibung — Zweck oder Bedeutung der Spalte&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="330" x="20" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-71" edge="1" parent="1" source="JwBW0XjGU_Lk8adR58iQ-27" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="JwBW0XjGU_Lk8adR58iQ-46" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2380" y="4980" as="sourcePoint" />
+            <mxPoint x="2540" y="4980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-72" edge="1" parent="1" source="JwBW0XjGU_Lk8adR58iQ-30" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="JwBW0XjGU_Lk8adR58iQ-50" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2310" y="4919" as="sourcePoint" />
+            <mxPoint x="2450" y="4850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-73" edge="1" parent="1" source="JwBW0XjGU_Lk8adR58iQ-29" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="JwBW0XjGU_Lk8adR58iQ-54" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2350" y="4979" as="sourcePoint" />
+            <mxPoint x="2490" y="4910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-74" edge="1" parent="1" source="JwBW0XjGU_Lk8adR58iQ-37" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="JwBW0XjGU_Lk8adR58iQ-58" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2280" y="5079" as="sourcePoint" />
+            <mxPoint x="2420" y="5010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-75" edge="1" parent="1" source="JwBW0XjGU_Lk8adR58iQ-36" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="JwBW0XjGU_Lk8adR58iQ-62" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="2320" y="5199" as="sourcePoint" />
+            <mxPoint x="2460" y="5130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-66" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=245;height=40;" value="OOP Info" vertex="1">
+          <mxGeometry height="2330" width="3040" x="1820" y="6140" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;" value="&lt;div&gt;🎯 Das ist eine „Assoziation“ – genauer: eine Verwendungsbeziehung (Usage / Dependency)&lt;/div&gt;&lt;div&gt;Die Beziehung heißt:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;✅ 1. UML‑Bezeichnung&lt;/div&gt;&lt;div&gt;Dependency (Abhängigkeit)&lt;/div&gt;&lt;div&gt;oder&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Typed Attribute (Attribut mit Klassentyp)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;✅ 2. Bedeutung&lt;/div&gt;&lt;div&gt;Eine Klasse nutzt eine andere Klasse als Datentyp, ohne sie zu besitzen oder zu verwalten.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Beispiel:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Klasse Adresse wird nur als Datentyp in Person verwendet&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Person hat ein Attribut adresse: Adresse&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Das ist keine Aggregation und keine Komposition, weil Person die Adresse nicht „besitzt“ oder „verwaltet“, sondern nur verwendet.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;📘 UML‑Darstellung&lt;/div&gt;&lt;div&gt;Variante A: Als Attribut (üblichste Form)&lt;/div&gt;&lt;div&gt;Code&lt;/div&gt;&lt;div&gt;+-----------------------+&lt;/div&gt;&lt;div&gt;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Person&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&lt;/div&gt;&lt;div&gt;+-----------------------+&lt;/div&gt;&lt;div&gt;| - adresse: Adresse&amp;nbsp; &amp;nbsp; |&lt;/div&gt;&lt;div&gt;+-----------------------+&lt;/div&gt;&lt;div&gt;Das bedeutet:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Person hat ein Attribut vom Typ Adresse&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Adresse wird als Datentyp verwendet&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;UML‑Beziehung (optional):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Code&lt;/div&gt;&lt;div&gt;Person -----&amp;gt; Adresse&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;&amp;lt;use&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;📘 Variante B: Dependency‑Pfeil (wenn nur Datentyp, keine Speicherung)&lt;/div&gt;&lt;div&gt;Wenn die Klasse nur kurz verwendet wird (z. B. als Parameter):&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Code&lt;/div&gt;&lt;div&gt;Person&amp;nbsp; ---------&amp;gt;&amp;nbsp; Adresse&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;&amp;lt;dependency&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;Das bedeutet:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Person kennt Adresse&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Person hängt davon ab, weil sie Adresse als Typ nutzt&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;aber Person besitzt Adresse nicht&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;🧭 Welche Beziehung ist es NICHT?&lt;/div&gt;&lt;div&gt;Beziehung&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Warum nicht?&lt;/div&gt;&lt;div&gt;Aggregation&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;würde bedeuten, dass Person Adresse „enthält“&lt;/div&gt;&lt;div&gt;Komposition&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;würde bedeuten, dass Adresse ohne Person nicht existiert&lt;/div&gt;&lt;div&gt;Vererbung&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;völlig anderer Zweck&lt;/div&gt;&lt;div&gt;Assoziation mit Multiplikation&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;nur nötig, wenn Adresse gespeichert wird&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;🎯 Zusammenfassung&lt;/div&gt;&lt;div&gt;Wenn eine Klasse nur als Datentyp für eine andere Klasse dient, heißt das in UML:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;👉 Dependency (Verwendungsbeziehung)&lt;/div&gt;&lt;div&gt;oder&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;👉 Attributtypisierung (Typed Attribute)&lt;/div&gt;&lt;div&gt;Darstellung:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Code&lt;/div&gt;&lt;div&gt;Person -----&amp;gt; Adresse&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;use&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;oder als Attribut:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Code&lt;/div&gt;&lt;div&gt;adresse: Adresse&lt;/div&gt;" vertex="1">
+          <mxGeometry height="1120" width="520" x="1865" y="6220" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingLeft=5;" value="&lt;div&gt;✅ 1. Klasse als Datentyp (Value Object)&lt;/div&gt;&lt;div&gt;Beispiel: Du willst nur bestimmte Strings erlauben, z. B. &quot;rot&quot;, &quot;grün&quot;, &quot;blau&quot;.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;php&lt;/div&gt;&lt;div&gt;class Farbe {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private string $wert;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private const ERLAUBT = [&quot;rot&quot;, &quot;grün&quot;, &quot;blau&quot;];&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public function __construct(string $wert) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (!in_array($wert, self::ERLAUBT, true)) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; throw new InvalidArgumentException(&quot;Ungültige Farbe: $wert&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; $this-&amp;gt;wert = $wert;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public function getWert(): string {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return $this-&amp;gt;wert;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;➡️ Diese Klasse gibt nichts Besonderes zurück, außer dass sie den Wert kapselt&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;➡️ Sie prüft, ob der Wert erlaubt ist&lt;/div&gt;&lt;div&gt;➡️ Sie ist selbst der Datentyp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;✅ 2. Array, das nur diese Klasse enthält&lt;/div&gt;&lt;div&gt;php&lt;/div&gt;&lt;div&gt;class FarbListe {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; /** @var Farbe[] */&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private array $farben = [];&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public function add(Farbe $farbe): void {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; $this-&amp;gt;farben[] = $farbe;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; /** @return Farbe[] */&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public function getAlle(): array {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return $this-&amp;gt;farben;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;➡️ Das Array enthält nur Objekte vom Typ Farbe&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;➡️ Du kannst keinen falschen Wert hinzufügen&lt;/div&gt;&lt;div&gt;➡️ Die Klasse Farbe garantiert, dass der Wert gültig ist&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;📘 UML‑Darstellung&lt;/div&gt;&lt;div&gt;Code&lt;/div&gt;&lt;div&gt;+-----------------------+&lt;/div&gt;&lt;div&gt;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Farbe&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |&lt;/div&gt;&lt;div&gt;+-----------------------+&lt;/div&gt;&lt;div&gt;| - wert: String&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |&lt;/div&gt;&lt;div&gt;+-----------------------+&lt;/div&gt;&lt;div&gt;| + __construct(wert)&amp;nbsp; &amp;nbsp;|&lt;/div&gt;&lt;div&gt;| + getWert(): String&amp;nbsp; &amp;nbsp;|&lt;/div&gt;&lt;div&gt;+-----------------------+&lt;/div&gt;&lt;div&gt;&amp;lt;&amp;lt;constraint&amp;gt;&amp;gt; wert ∈ {rot, grün, blau}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+---------------------------+&lt;/div&gt;&lt;div&gt;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;FarbListe&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;|&lt;/div&gt;&lt;div&gt;+---------------------------+&lt;/div&gt;&lt;div&gt;| - farben: Farbe[0..*]&amp;nbsp; &amp;nbsp; &amp;nbsp;|&lt;/div&gt;&lt;div&gt;+---------------------------+&lt;/div&gt;&lt;div&gt;| + add(f: Farbe): void&amp;nbsp; &amp;nbsp; &amp;nbsp;|&lt;/div&gt;&lt;div&gt;| + getAlle(): Farbe[]&amp;nbsp; &amp;nbsp; &amp;nbsp; |&lt;/div&gt;&lt;div&gt;+---------------------------+&lt;/div&gt;&lt;div&gt;Beziehung:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Code&lt;/div&gt;&lt;div&gt;FarbListe 1 ---- 0..* Farbe&lt;/div&gt;&lt;div&gt;🎯 Fazit&lt;/div&gt;&lt;div&gt;Eine Klasse muss nichts Besonderes zurückgeben, um als Datentyp zu dienen&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Sie repräsentiert den Wert selbst&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Du kannst damit Arrays bauen, die nur erlaubte Werte enthalten&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Das ist die professionellste Lösung in PHP (Value‑Object‑Pattern)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Wenn du willst, kann ich dir:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ein komplettes UML‑Diagramm&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;eine generische Version für beliebige erlaubte Werte&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;oder ein konkretes Beispiel für deinen Anwendungsfall&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;erstellen.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="1250" width="480" x="2480" y="6220" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-77" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=5;" value="&lt;div&gt;ERLAUBT ist in deinem Beispiel keine Klasse, sondern eine Klassenkonstante.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Ich zeige dir genau, was das bedeutet und wie man es einordnet.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;🎯 Was ist private const ERLAUBT = [&quot;rot&quot;, &quot;grün&quot;, &quot;blau&quot;];?&lt;/div&gt;&lt;div&gt;Das ist eine Konstante innerhalb einer Klasse.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;🔹 Konstante&lt;/div&gt;&lt;div&gt;Ein fester Wert, der sich nie ändert&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Wird mit const definiert&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Kann Array, String, Zahl, Boolean usw. sein&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Wird ohne $ geschrieben&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;🔹 Klassenkonstante&lt;/div&gt;&lt;div&gt;Gehört zur Klasse, nicht zu einem Objekt&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Wird mit self::ERLAUBT aufgerufen&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Wird oft für erlaubte Werte, Konfiguration, Enum‑ähnliche Werte genutzt&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;📘 Beispiel erklärt&lt;/div&gt;&lt;div&gt;php&lt;/div&gt;&lt;div&gt;class Farbe {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private const ERLAUBT = [&quot;rot&quot;, &quot;grün&quot;, &quot;blau&quot;];&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;👉 ERLAUBT ist also:&lt;/div&gt;&lt;div&gt;eine Konstante&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;vom Typ Array&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;privat (nur innerhalb der Klasse sichtbar)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;enthält Strings, die erlaubt sind&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Sie ist kein Datentyp, keine Klasse, keine Variable.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;🧠 Warum benutzt man das?&lt;/div&gt;&lt;div&gt;Damit du zentral festlegen kannst, welche Werte gültig sind.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Beispiel:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;php&lt;/div&gt;&lt;div&gt;public function __construct(string $wert) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (!in_array($wert, self::ERLAUBT, true)) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; throw new InvalidArgumentException(&quot;Ungültige Farbe&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; $this-&amp;gt;wert = $wert;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;➡️ Die Klasse prüft selbst, ob der Wert erlaubt ist&lt;/div&gt;&lt;div&gt;➡️ Du kannst keine falschen Werte erzeugen&lt;/div&gt;&lt;div&gt;➡️ Die Klasse wird zu einem eigenen Datentyp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;📘 UML‑Darstellung&lt;/div&gt;&lt;div&gt;Code&lt;/div&gt;&lt;div&gt;+-----------------------+&lt;/div&gt;&lt;div&gt;|&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Farbe&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |&lt;/div&gt;&lt;div&gt;+-----------------------+&lt;/div&gt;&lt;div&gt;| - wert: String&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; |&lt;/div&gt;&lt;div&gt;| - ERLAUBT: String[] {const} |&lt;/div&gt;&lt;div&gt;+-----------------------+&lt;/div&gt;&lt;div&gt;🎯 Kurzfassung&lt;/div&gt;&lt;div&gt;Element&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Bedeutung&lt;/div&gt;&lt;div&gt;const&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Konstante (unveränderbar)&lt;/div&gt;&lt;div&gt;private&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;nur in der Klasse sichtbar&lt;/div&gt;&lt;div&gt;ERLAUBT&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Name der Konstante&lt;/div&gt;&lt;div&gt;[&quot;rot&quot;,&quot;grün&quot;,&quot;blau&quot;]&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Array aus Strings&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="1020" width="440" x="3020" y="6320" as="geometry" />
+        </mxCell>
+        <mxCell id="JwBW0XjGU_Lk8adR58iQ-78" edge="1" parent="1" source="JwBW0XjGU_Lk8adR58iQ-76" style="endArrow=classic;html=1;rounded=0;exitX=1.005;exitY=0.092;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.005;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;" target="JwBW0XjGU_Lk8adR58iQ-77" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="3270" y="6510" as="sourcePoint" />
+            <mxPoint x="3320" y="6460" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

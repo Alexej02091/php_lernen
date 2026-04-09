@@ -6,6 +6,28 @@ class DBCheck {
         $fallbackFile = __DIR__ . '/fallback/users.json';
         $fallbackData = null;
 
+        // 1. DB-Verbindung prüfen
+        $conn = $db->connect();
+
+        if ($conn === false) {
+            $_SESSION["db_status"] = [
+                "ok" => false,
+                "message" => "Keine DB-Verbindung"
+            ];
+        } else {
+            $_SESSION["db_status"] = [
+            "ok" => true,
+            "message" => "Verbindung zur Datenbank erfolgreich."
+            ];
+
+            // Alle Daten von DB holen
+            // Tabellen Namen 
+            // Attributen der Tabellen
+            // Eingeschaften der Attributen
+            // 
+        }
+    }
+
         // 1. Fallback prüfen
         if (file_exists($fallbackFile)) {
             $json = file_get_contents($fallbackFile);
@@ -21,22 +43,6 @@ class DBCheck {
                 "message" => "Fallback nicht gefunden"
             ];
         }
-
-        // 2. DB-Verbindung prüfen
-        $conn = $db->connect();
-
-        if ($conn === false) {
-            $_SESSION["db_status"] = [
-                "ok" => false,
-                "message" => "Keine DB-Verbindung"
-            ];
-        } else {
-            $_SESSION["db_status"] = [
-            "ok" => true,
-            "message" => "Verbindung zur Datenbank erfolgreich."
-        ];
-        }
-    }
 
     // 3. Fallback exestiert aber Keine DB-Verbindung
     //  
