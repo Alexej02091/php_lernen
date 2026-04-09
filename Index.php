@@ -143,5 +143,7 @@
             <?php unset($_SESSION["login_error"]); ?>
             <?php endif; ?>
         </div>
+
+        <?php include_once 'datenbank/fallback/dbmuster.php' ?>
     </body>
 </html>

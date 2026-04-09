@@ -26,7 +26,6 @@ class DBCheck {
             // Eingeschaften der Attributen
             // 
         }
-    }
 
         // 1. Fallback prüfen
         if (file_exists($fallbackFile)) {
@@ -55,7 +54,7 @@ class DBCheck {
 
     // 6 Fallback exestiert und DB-Verbindung
 
-
+    }
 
 
     private static function checkUsersTable($db) {
@@ -104,6 +103,5 @@ class DBCheck {
             $db->query($sql);
         }
     }
-
 
 }
