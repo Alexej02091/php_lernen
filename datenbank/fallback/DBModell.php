@@ -171,9 +171,16 @@ class TabellenSchema {
 
 
     public function __construct(DBTabellenname $tabelleName, Attributtname $attribut, Datentyp $datentyp, Laenge $laenge, Intergritaetsregel $intergritaetsregel, Automatisierung $automatisierung) {
+        $this->attribut = $attribut;
+        $this->datentyp = $
+    
         if ($tabelleName("users")){
-            $this->attribut
-        }
+                $this->attribut = "ID";
+                $this->datentyp = "INT";
+                $this->laenge = "";
+                $this->intergritaetsregel = "Primary Key";
+                $this->automatisierung = "AUTO_INCREMENT";
+            }
     }
 
 }
