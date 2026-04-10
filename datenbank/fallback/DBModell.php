@@ -13,37 +13,6 @@ class DBModell {
 
 }
 
-class DBTabellen {
-    private TabellenName $tabelleName;
-    private array $attribute = [];
-
-    public function __construct (TabellenName $tabelleName) {
-        $this->tabelleName = $tabelleName;
-    }
-
-    public function addAttribut(DBAttribut $attribute) {
-        $this->attribute[] = $attribute;
-    }
-}
-
-class DBAttribut {
-    private Attributtname $attributname;
-    private Datentyp $datentyp;
-    private Laenge $laenge;
-    private Intergritaetsregel $intergritaetsregel;
-    private Automatisierung $automatisierung;
-
-    public function __construct (Attributtname $attributname, Datentyp $datentyp, Laenge $laenge, Intergritaetsregel $intergritaetsregel, Automatisierung $automatisierung) {
-        $this->attributname = $attributname;
-        $this->datentyp = $datentyp;
-        $this->laenge = $laenge;
-        $this->intergritaetsregel = $intergritaetsregel;
-        $this->automatisierung = $automatisierung;
-    }
-
-}
-
-
 class DBName {
     private string $dbName;
 
@@ -60,6 +29,36 @@ class DBName {
         return $this->dbName;
     }
 }
+
+class DBTabellen {
+    private TabellenName $tabelleName;
+    private array $attribute = [];
+
+    public function __construct (TabellenName $tabelleName) {
+        $this->tabelleName = $tabelleName;
+    }
+
+    public function addAttribut(DBAttribut $attribute) {
+        $this->attribute[] = $attribute;
+    }
+}
+
+// class DBAttribut {
+//     private Attributtname $attributname;
+//     private Datentyp $datentyp;
+//     private Laenge $laenge;
+//     private Intergritaetsregel $intergritaetsregel;
+//     private Automatisierung $automatisierung;
+
+//     public function __construct (Attributtname $attributname, Datentyp $datentyp, Laenge $laenge, Intergritaetsregel $intergritaetsregel, Automatisierung $automatisierung) {
+//         $this->attributname = $attributname;
+//         $this->datentyp = $datentyp;
+//         $this->laenge = $laenge;
+//         $this->intergritaetsregel = $intergritaetsregel;
+//         $this->automatisierung = $automatisierung;
+//     }
+
+// }
 
 class TabellenName {
     private string $tabellenname;
@@ -161,6 +160,22 @@ class Automatisierung {
     public function getAutomatisierung(): string {
         return $this->$automatisierung;
     }
+}
+
+class TabellenSchema {
+    $attribut = new Attributtname;
+    $datentyp = new Datentyp;
+    $laenge = new Laenge;
+    $intergritaetsregel = new Intergritaetsregel;
+    $automatisierung = new Automatisierung;
+
+
+    public function __construct(DBTabellenname $tabelleName, Attributtname $attribut, Datentyp $datentyp, Laenge $laenge, Intergritaetsregel $intergritaetsregel, Automatisierung $automatisierung) {
+        if ($tabelleName("users")){
+            $this->attribut
+        }
+    }
+
 }
 
 ?>
