@@ -3,12 +3,25 @@ class DBModell {
     private DBName $dbname;
     private array $tabellen = [];
     
-    public function __construct (DBName $dbname) {
+    public function __construct(DBName $dbname) {
         $this->dbname = $dbname;
+
+        // Automatisch Tabellen erzeugen abhängig vom DB-Namen
+        $this->tabellen = match ($dbname->getdbName()) {
+
+            "praktikum" => [
+                new TabellenSchema("users"),
+                // weitere Tabellen hier eintragen
+            ],
+
+            default => throw new InvalidArgumentException(
+                "Für diese Datenbank existiert kein festes Schema: " . $dbname->getdbName()
+            )
+        };
     }
 
-    public function addTabellen(DBTabellen $tabelle){
-        $this->tabellen[] = $tabelle;
+    public function getTabellen(): array {
+        return $this->tabellen;
     }
 
 }
@@ -43,22 +56,27 @@ class DBTabellen {
     }
 }
 
-// class DBAttribut {
-//     private Attributtname $attributname;
-//     private Datentyp $datentyp;
-//     private Laenge $laenge;
-//     private Intergritaetsregel $intergritaetsregel;
-//     private Automatisierung $automatisierung;
+class DBAttribut {
+    private Attributtname $name;
+    private Datentyp $datentyp;
+    private Laenge $laenge;
+    private Intergritaetsregel $regel;
+    private Automatisierung $auto;
 
-//     public function __construct (Attributtname $attributname, Datentyp $datentyp, Laenge $laenge, Intergritaetsregel $intergritaetsregel, Automatisierung $automatisierung) {
-//         $this->attributname = $attributname;
-//         $this->datentyp = $datentyp;
-//         $this->laenge = $laenge;
-//         $this->intergritaetsregel = $intergritaetsregel;
-//         $this->automatisierung = $automatisierung;
-//     }
-
-// }
+    public function __construct(
+        Attributtname $name,
+        Datentyp $datentyp,
+        Laenge $laenge,
+        Intergritaetsregel $regel,
+        Automatisierung $auto
+    ) {
+        $this->name = $name;
+        $this->datentyp = $datentyp;
+        $this->laenge = $laenge;
+        $this->regel = $regel;
+        $this->auto = $auto;
+    }
+}
 
 class TabellenName {
     private string $tabellenname;
@@ -90,7 +108,7 @@ class Attributtname {
     }
 
     public function getAttributtName(): string {
-        return $this->$attributtname;
+        return $this->attributtname;
     }
 }
 
@@ -107,7 +125,7 @@ class Datentyp {
     }
 
     public function getDatentyp(): string {
-        return $this->$datentyp;
+        return $this->datentyp;
     }
 }
 
@@ -124,7 +142,7 @@ class Laenge {
     }
 
     public function getLaenge(): string {
-        return $this->$laenge;
+        return $this->laenge;
     }
 }
 
@@ -141,7 +159,7 @@ class Intergritaetsregel {
     }
 
     public function getIntergritaetsregel(): string {
-        return $this->$intergritaetsregel;
+        return $this->intergritaetsregel;
     }
 }
 
@@ -158,29 +176,69 @@ class Automatisierung {
     }
 
     public function getAutomatisierung(): string {
-        return $this->$automatisierung;
+        return $this->automatisierung;
     }
 }
 
 class TabellenSchema {
-    $attribut = new Attributtname;
-    $datentyp = new Datentyp;
-    $laenge = new Laenge;
-    $intergritaetsregel = new Intergritaetsregel;
-    $automatisierung = new Automatisierung;
+    private string $tabelle;
+    private array $attribute = [];
 
-
-    public function __construct(DBTabellenname $tabelleName, Attributtname $attribut, Datentyp $datentyp, Laenge $laenge, Intergritaetsregel $intergritaetsregel, Automatisierung $automatisierung) {
-        $this->attribut = $attribut;
-        $this->datentyp = $
+    public function __construct(string $tabelle) {
+        $this->tabelle = $tabelle;
     
-        if ($tabelleName("users")){
-                $this->attribut = "ID";
-                $this->datentyp = "INT";
-                $this->laenge = "";
-                $this->intergritaetsregel = "Primary Key";
-                $this->automatisierung = "AUTO_INCREMENT";
-            }
+        $this->attribute = match ($tabelle) {
+            "users" => [
+                new DBAttribut(
+                    new Attributtname("ID"),
+                    new Datentyp("INT"),
+                    new Laenge(""),
+                    new Intergritaetsregel("Primary Key"),
+                    new Automatisierung("AUTO_INCREMENT")
+                ),
+                new DBAttribut(
+                    new Attributtname("name"),
+                    new Datentyp("VARCHAR"),
+                    new Laenge("255"),
+                    new Intergritaetsregel("NOT NULL"),
+                    new Automatisierung("")
+                ),
+                new DBAttribut(
+                    new Attributtname("password"),
+                    new Datentyp("VARCHAR"),
+                    new Laenge("255"),
+                    new Intergritaetsregel("NOT NULL"),
+                    new Automatisierung("")
+                ),
+                new DBAttribut(
+                    new Attributtname("rolle"),
+                    new Datentyp("VARCHAR"),
+                    new Laenge("255"),
+                    new Intergritaetsregel("NOT NULL"),
+                    new Automatisierung("")
+                ),
+                new DBAttribut(
+                    new Attributtname("created_at"),
+                    new Datentyp("TIMESTAMP"),
+                    new Laenge(""),
+                    new Intergritaetsregel("NOT NULL"),
+                    new Automatisierung("")
+                ),
+                new DBAttribut(
+                    new Attributtname("updated_at"),
+                    new Datentyp("TIMESTAMP"),
+                    new Laenge(""),
+                    new Intergritaetsregel("NOT NULL"),
+                    new Automatisierung("")
+                ),
+            ],
+
+            default => throw new InvalidArgumentException("Unbekannte Tabelle: $tabelle")
+        };
+    }
+
+    public function getAttribute(): array {
+        return $this->attribute;
     }
 
 }
